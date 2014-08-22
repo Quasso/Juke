@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type="text/javascript" src="//use.typekit.net/xyq0bjg.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript" src="/juke.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/juke.css">
+</head>
+<main>
+    <header>
+      <div class="inner-header">
+        <h1>Juke.js</h1>
+        <p class="byline">A funky little responsive javascript jukebox that uses AJAX to make a feed of tracks from Last.fm, all playable via Spotify mobile or desktop</p>
+      </div>
+    </header>
+    <div class="wrap">
+      <h2>Recent Tracks</h2>
+      <div class="d-1of2" style="margin: 0 auto">
+      <div id="one" class="juke" juke-method="user.getrecenttracks" juke-limit="15" juke-rows="6" juke-user="AGoodge"></div>
+      </div>
+    </div>
+ <h2 style="margin-top: 2em; color: rgb(117,191,	252)">About</h2>
+   <p id="about">Thanks for checking this out. The reason I made this stems from me wanting to experiment with my portfolio site, and trying to think of creative ways to engage people and let them know a bit about me. <br><br>
+   I originally wrote it using PHP, but I thought it would be a nice thing to share around, since people could use it for all kinds of things--so I re-wrote it fully in jQuery, and it uses Velocity.js for the animations. It currently only gels well with "user." methods which is largely due to the whacky Last.FM API. <br><br>To set options, you'll notice there's just an empty div with class "juke" on the page, the options you'll need for now are already inside the examples. Much love from Alex G.</p>
+ </main>
+ </html>
