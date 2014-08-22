@@ -8,6 +8,7 @@ $(document).ready(function() {
     var header = 0; // Need to sort the header out first and clean up all SASS
     var animate; // So it's in scope for on click function
     $jukes = $('.juke');
+    // Detect all juke elements on the page and render them accordingly, theoretically no limit although practically I wouldn't load too many.
     if ($jukes.length == 1) {
         renderJuke(0);
     } else {
