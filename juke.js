@@ -30,7 +30,7 @@ $(document).ready(function() {
         var params = "",
             nodeSet = 1;
         var tree;
-        var artist = $jukebox.attr("juke-artist") || "Britney Spears";
+        var artist = $jukebox.attr("juke-artist") || "Britney Spears"; // Haha
         params = "&user=" + user;
         var lfmQuery = "http://ws.audioscrobbler.com/2.0/?method=" + method + params + "&api_key=" + api_key + "&limit=" + limit + "&format=json";
         $jukebox.height(tracksInView * 80);
